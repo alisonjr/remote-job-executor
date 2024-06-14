@@ -1,0 +1,6 @@
+﻿services:
+  remotejob:
+    image: remotejob
+    build:
+      context: .
+      dockerfile: Dockerfile
